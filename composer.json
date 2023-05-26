@@ -1,0 +1,25 @@
+{
+  "name": "pointeger/magento2-module-attribute-lock",
+  "description": "The product attribute lock extension enables users to  make product attributes read only on product edit page by an attribute configuration. This feature helps the admin to lock  a value of product attribute so the value cannot be changed.",
+  "require": {
+    "php": ">=7.3",
+    "magento/framework": ">=103"
+  },
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pointeger",
+      "email": "tech@pointeger.com"
+    }
+  ],
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Pointeger\\AttributeLock\\": ""
+    }
+  }
+}
